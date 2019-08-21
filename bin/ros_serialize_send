@@ -1,0 +1,7 @@
+#! /usr/bin/env python
+
+from ros_serialize.ros_serialize_node import *
+import rospy
+
+if __name__ == '__main__':
+	script()
