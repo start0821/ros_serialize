@@ -17,7 +17,7 @@ def convert(data):
         return data
 
 def listener():
-    sock1 = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+    sock1 = socket.socket(socket.AF_INET,sockett .SOCK_DGRAM)
     sock2 = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
     sock1.bind((os.environ['ros_serialize_receive_ip'],8080))
     sock2.bind((os.environ['ros_serialize_receive_ip'],8081))
